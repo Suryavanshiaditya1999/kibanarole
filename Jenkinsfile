@@ -7,7 +7,7 @@ pipeline {
     }
     
     stages {
-        stage('Installing SonarQube') {
+        stage('Installing kibana') {
             steps {
                 script {
                     ansiblePlaybook(
